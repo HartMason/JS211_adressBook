@@ -1,0 +1,19 @@
+{
+  "name": "js211_adressbook",
+  "version": "1.0.0",
+  "description": "Creation Time, 60-90 mins\r If you worked on the practice problem in the pre-work you should have a firm grasp of an API and how to request data from it. Today we're going to build an address book using a free API as our server of data.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HartMason/JS211_adressBook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HartMason/JS211_adressBook/issues"
+  },
+  "homepage": "https://github.com/HartMason/JS211_adressBook#readme"
+}

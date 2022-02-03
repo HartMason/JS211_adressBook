@@ -1,0 +1,32 @@
+
+
+header {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 50px;
+}
+
+img {
+    padding-top: 15px;
+    height: 200px;
+    width: auto; 
+    margin-left: 85px
+}
+
+h4 {
+   
+    margin-left: 40px;
+    margin-right: auto;
+    
+}
+
+
+button {
+    margin: 50px 50px;
+    margin-left: 60px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: rgb(17, 16, 16);
+}
+
