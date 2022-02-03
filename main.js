@@ -35,14 +35,16 @@ const consoleUsers = () => {
 
 const displayUsers = () => {
     const allPeep = document.getElementById('book')
+    allPeep.innerHTML = ``
     arrayOfUsers.results.map((user, index) => {
         const li = document.createElement('li')
         const text = document.createTextNode(`#${index}, Name: ${user.name.first} , Cell: ${user.cell}`)
         const pic = document.createElement('img')
         li.appendChild(text)
         li.append(pic)
-        pic.setAttribute('src', user.picture.thumbnail)
+        pic.setAttribute('src', user.picture.large)
         allPeep.append(li)
+        console.log(arrayOfUsers.results)
     })
 }
 
@@ -62,12 +64,13 @@ let nextContact = () => {
     allPeep.innerHTML = ``
     console.log("click")
     const li = document.createElement('li')
+    li.classList.add("randomStyle")
     const text = document.createTextNode(`Name: ${arrayOfUsers.results[counter].name.first} , Cell: ${arrayOfUsers.results[counter].cell}`)
     const pic = document.createElement('img')
     console.log(arrayOfUsers)
     li.appendChild(text)
     li.append(pic)
-    pic.setAttribute('src', arrayOfUsers.results[counter].picture.thumbnail)
+    pic.setAttribute('src', arrayOfUsers.results[counter].picture.large)
     allPeep.append(li)
     counter++
 };
